@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    background-color: #ffd633;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+}
+
+nav #logo {
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    line-height: 100px;
+    padding-left: 45%;
+    padding-top: 15px;
+    mix-blend-mode:  multiply;
+    
+}
+
+nav ul {
+    float: right;
+    margin-top: 40px;
+    clear: both;
+    
+}
+
+nav ul li {
+    display: inline;
+    
+}
+
+nav ul li a {
+    padding-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+}
+
+nav ul li a:hover {
+    color: rgb(228, 214, 28);
+}
+
+/*Header End Here*/
+
+#welcomephoto {
+    background-image: url(./images/pickachu1.jpeg);
+    width: 100%;
+    height: 900px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    background-color: #ffd633;
+
+}
+
+main h1 {
+    text-align: center;
+   
+}
+
+#red {
+    color: red;
+}
+
+#black{
+    color: #000;
+}
+
+/*About Start Here*/
+
+.container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    background-color: #ffd633;
+}
+
+.container #description{
+    margin-left: 300px;
+    width: 600px;
+    text-align: justify;
+}
+
+.container #photo {
+    width: 700px;
+    height: 500px;
+}
+
+.container #description a{
+    color: rgb(228, 214, 28);
+    text-decoration: none;
+}
+
+#about {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 0;
+}
+
+#about h1 {
+    text-align: center;
+    color: red;
+    
+}
+
+#about p {
+    text-align: justify;
+    line-height: 1.2em;
+}
